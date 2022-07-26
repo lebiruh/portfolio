@@ -19,8 +19,8 @@ const ProjectDisplay = () => {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <Link to='#'>
-        <GitHubIcon link='#' />
+      <Link to='https://github.com/lebiruh?tab=repositories'>
+        <GitHubIcon link='https://github.com/lebiruh?tab=repositories' />
       </Link>
     </div>
   )

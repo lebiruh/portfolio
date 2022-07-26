@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@mui/material';
+// import { Link } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
@@ -9,15 +9,15 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <Link to='*'>
+        <a href='https://yahoo.com' rel='noreferrer' target='_blank'>
           <EmailIcon />
-        </Link>
-        <Link to='*'>
+        </a>
+        <a href='https://linkedin.com/in/biruh-tesfa-56979b237' rel='noreferrer' target='_blank'>
           <LinkedInIcon />
-        </Link>
-        <Link to='*'>
+        </a>
+        <a href='https://github.com/lebiruh' rel='noreferrer' target='_blank'>
           <GitHubIcon />
-        </Link>
+        </a>
       </div>
       <p>&copy; {new Date().getFullYear()} Biruh Tesfa</p>
     </div>
