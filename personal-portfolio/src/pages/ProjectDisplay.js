@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@mui/material';
+// import { Link } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectLists';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -19,9 +19,9 @@ const ProjectDisplay = () => {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <Link to='https://github.com/lebiruh?tab=repositories'>
-        <GitHubIcon link='https://github.com/lebiruh?tab=repositories' />
-      </Link>
+      <a href='https://github.com/lebiruh?tab=repositories' target='_blank' rel='noreferrer'>
+        <GitHubIcon />
+      </a>
     </div>
   )
 }
