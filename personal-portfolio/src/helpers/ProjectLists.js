@@ -21,7 +21,7 @@ export const ProjectList = [
   },
   {
     name: "Google Chrome Extension",
-    // image: SocialMediaImg,
+    
     skills: 'JavaScript, HTML, CSS'
   }
 ]
