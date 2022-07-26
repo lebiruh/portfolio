@@ -11,7 +11,7 @@ const Projects = () => {
       <div className='projectList'>
         {
           ProjectList.map((project, i) => {
-            return <ProjectItem id={i} name={project.name} image={project.image}/>
+            return <ProjectItem key={i} id={i} name={project.name} image={project.image}/>
           })
         }
       </div>

@@ -15,6 +15,7 @@
 }
 
 .projectList {
+  /* margin-top: 50px; */
   width: 70vw;
   height: auto;
   display: grid;
