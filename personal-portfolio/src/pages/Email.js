@@ -28,6 +28,7 @@ const Email = () => {
           <label>Message</label>
           <textarea name="message" rows={8}/>
         </div>
+          <p>Please add your email address along with your message so that I can reply.</p>
           <input type="submit" value="Send" className="btn" />
       </form>
     </div>
